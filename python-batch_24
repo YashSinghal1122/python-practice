@@ -1,0 +1,2 @@
+s = input("yash singhal")
+print (s)
