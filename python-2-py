@@ -1,0 +1,373 @@
+# odd number from 1 to 10
+# for i in range(11):
+#     print(i)
+
+# even number from 1 to 10
+# for i in range(2,11,2):
+#     print(i)
+
+# for i in range(2,200):
+#     if i % 3  == 0 or i % 5 == 0:
+#         print(i)
+
+# # 5 to 1 reverse number 
+# for i in range(5,0,-1):
+#     print(i)
+
+# print number in reverse order which are divisible by 7 and 3 
+#200 ,1
+
+# for i in range(200,1,-1):
+#     if i % 3 == 0 or i % 7 == 0:
+#         print(i)
+
+# 1 to 10 print sum
+# sum = 0
+# for i in range(1,11):
+#     sum = sum + i
+# print(sum)
+
+# 20 - 5 = product
+# a = 20
+# b = 5
+# product = a*b
+# print(product)
+
+# odd numbers = multiplication = 5,25
+# for i in range(5,26):
+#     if i % 2 != 0:
+
+# 1. Print numbers from 1 to 10 using a for loop.
+# for i in range(1 , 11):
+#     print(i)
+
+# Print all even numbers between 1 to 50.
+# for i in range(1 , 51):
+#     if(i%2 == 0):
+
+
+# a = int(input("Enter first num: "))
+# b = int(input("Enter second num: "))
+# print("Add =", a+b)
+# print("Sub =", a -b)
+# print("Multi =", a*b)
+# print("Div =", a /b)
+# print("Modu =", a %b)
+# print("Floor Div =", a// b)
+# print("Power =", a** b)
+
+#take three number as input and perform addition on them
+# a = int(input("Enter a:" ))
+# b = int(input("Enter b:" ))
+# c = int(input("Enter c:" ))
+# print(a+b+c)
+
+
+# a = [10,20,30]
+# b = [10,20,30]
+# print(a is b)
+
+# bitwise operator
+# a= 5
+# b = 3
+# print(a  |b)
+
+# write a program to add to numbers enter by the user 
+# a = int(input("enter a"))
+# b = int(input("enter b"))
+# print(a +b)
+
+# a = int(input("enter a:"))
+# b = int(input("enter b:"))
+
+# a = a+b
+# b  = a-b
+# a = a-b
+# print(a,b)
+
+# state ="RAJASTHAN"
+# STATE[-1:-4]
+
+# write a propgram that takes an integer input from the user and check wether the number is odd or even
+
+# yash = int(input("Enter the value: "))
+# if (yash % 2 == 0):
+#     print("number is even")
+# else:
+#     print("nummber is odd")  
+
+# write a propgram that takesthree numbers as input and the print the agrest of three
+# a = int(input("Enter the first number :"))
+# b = int(input("Enter the second number :"))
+# c = int(input("Enter the third number :"))
+
+# if (a>b and a>c):
+#     print("A is greter")
+# elif (b>c and b>a):
+#     print("B is greter")    
+# else :
+#     print("c is greter")    
+
+# write a program to check if a given year is a leap year . a leap year is divisible by 4 but not by
+#100 unless it is also divisible by 400.
+
+# year = int(input("Enter the year :"))
+# if (year % 4 ==0 and year % 100 != 0) or (year % 400 == 0):
+#     print("leep year ")
+# else :
+#     print("not a leap year ")    
+
+# write a progra that takes a percentage (int ) as input and prints the crossponding grade based on the folloing
+# >=90: grade A
+# >=80: grade B 
+# >=70: grade c 
+# >=60: grade d 
+# <60 :  grade F 
+
+# a = int(input("Enter the percentage: "))
+# if a >= 90 :
+#     print("grade a ")
+# elif a >= 80:
+#     print("rade b ")    
+# elif a >= 70:
+#     print("grade c ")    
+# elif a >= 60:
+#     print("grade d ")    
+# else:
+#     print("grade f")    
+
+# write a program that checks if a given letter is a vowel (a,e,i,o,u) or a consonent
+# ch = input("Enter a letter: ")
+
+# if ch in['a', 'e', 'i', 'o', 'u']:
+#     print("Vowel")
+# else:
+#     print("Consonant")
+
+# write a basic calculator program that takes two number and an   opetator (+ ,-,/,*) as input and
+# performs the specified operations print the reesult based on the operation.
+
+# num1 = float(input("Enter the first value: "))
+# num2 = float(input("Enter the second value: "))
+# op = input("Enter operator (+ ,-,/,*): ")
+
+# if op == '+':
+#     print("result : ", num1 + num2)
+# elif op == '-':
+#     print("result : ", num1 - num2)
+# elif op == '*':
+#     print("result",num1 * num2)
+# elif op == '/':
+#     print("result", num1 / num2)
+# else :
+#     print("invalid operator")    
+
+#write a program that takes a number as input and checks wether is is positive, negetive, or zero.
+
+# number = float(input("Enter the value :"))
+
+# if number > 0:
+#     print("num is positive:")
+# elif number < 0:
+#     print("num is negetive: ")    
+# else :
+#     print("num is zero:")        
+
+# Write a program that checks if a username and pwd enterd by the user match the pre-set value username 
+# = "admin" and pwd = "1234". if both match, print " login sucessfully ", otherwise print "login failed".
+
+# username = input("Enter username: ")
+# password = input("Enter password: ")
+
+# if username == "admin" and password == "1234":
+#     print("login sucessfully")
+# else: 
+#     print("login failed")  
+ 
+# write a program that takes three side of a tringel as input and checks if those sides from a valid
+# triange. a tringel is valid if the sum of any two side is greter then the third side.
+# check condition like a + b > c, b + c > a, and a + c >b.
+
+# a = float(input("Enter first side : "))
+# b = float(input("Enter second side :"))
+# c = float(input("Enter third side :"))
+
+# if  a + b > c  and b + c > a and a + c > b:
+#     print("valid triangle")
+# else:
+#     print("invalid triangle")    
+
+#write a program to calculate the body mass index (bmi) baesed on user input for weight (in kilograms)
+# and hight (in meters). then categorise the bmi into.
+# underweight (bim < 18.5)
+# normal weight  (18.5 <= bmi < 24.9)
+# overweight (25 <= bmi <29.9)
+# obesity (bmi >= 30)
+
+# ?????????????????????????????
+
+# Write a program that  calculates the discount for a product based on its price:
+# if price is greterthen 1000, discount is 10%
+# if price btw 500 and 1000, discount is 5%
+# otherwise no discount
+# print the final price after applying the discount.
+
+# price = float(input("Enter product price : "))
+# if price > 1000:
+#     discount = price *  0.10
+# elif price >= 500 and price <= 1000:
+#     discount = price * 0.05
+# else:
+#     discount = 0
+# final_price = price - discount
+
+# print("final price ", final_price)
+# print("discount", discount)
+
+#write a program that takes the name of a month as input and prints the number of days in the month.
+# considor leap years for februray.
+
+# month = input("Enter month name: ")
+
+# if month == "january":
+#     print("january has 31 days ")
+# elif month == "february":
+#     print("february has 28 days (29 days in leap year )")
+# elif month == "march":
+#     print("march has 31 days")
+# elif month == "april":
+#     print("April has 30 days")
+
+# elif month == "may":
+#     print("May has 31 days")
+
+# elif month == "june":
+#     print("June has 30 days")
+
+# elif month == "july":
+#     print("July has 31 days")
+
+# elif month == "august":
+#     print("August has 31 days")
+
+# elif month == "september":
+#     print("September has 30 days")
+
+# elif month == "october":
+#     print("October has 31 days")
+
+# elif month == "november":
+#     print("November has 30 days")
+
+# elif month == "december":
+#     print("December has 31 days")
+
+# else:
+#     print("Invalid month name")
+
+#write a program that simulates a simple atm. the user should be able to:
+# check balance, deposit money , withdraw money (ensure the balance doesn't go negetive) use an
+# if-else structure to  handle the user's choice.
+
+# balance = 5000
+
+# print("welcome to Yash ATM")
+# print("1. check balance")
+# print("2. deposit money")
+# print("3. withdraw money")
+
+# choice = int(input("Enter your choice (1/2/3): "))
+
+# if choice == 1:
+#     print("your current balance is ",balance)
+# elif choice ==2:
+#     amount = int(input("Enter the amount deposit: "))    
+#     balance = amount + balance
+#     print("your deposited sucessfully")
+#     print("your current balance",balance)
+# elif choice ==3:
+#     amount = int(input("Enter the amount withdraw: "))   
+#     if amount <= balance:
+#         balance = balance - amount
+#         print("please collect your cash")
+#         print("remaining balance is: ",balance)
+#     else :
+#         print("insufficient balance")    
+# else:
+#     print("invalid choice")        
+
+# write a program that cetegorize a given age into diff. grp:
+# infant (0-1 year)
+# toddler (2-4 year)
+# child (5-12 year)
+# teenager (13-19 year)
+# adult (20-59 year)
+# senoir(60 years and above)
+
+# age = int(input("Enter your age : "))
+# if age >= 0 and age <= 1:
+#     print("infant")
+# elif age >= 2 and age <=4 :
+#     print("toddler")
+# elif age >= 5 and age <= 12:
+#     print("child")
+# elif age >= 13 and age <= 19:
+#     print("teenager")    
+# elif age >= 20 and age <= 59:
+#     print("adult")    
+# elif age >= 60:
+#     print("senoir")
+# else :
+#     print("invalid age")    
+
+
+# write a program that takes an integer (1-7) as input and print the crossponding day of the week 
+# (1 for monday , 2 for tuesday etc.)
+
+# num = int(input("enter the number "))
+# if num == 1:
+#     print("monday")
+# elif num ==2:
+#     print("tuesday")    
+# elif num == 3:
+#     print("wenesday")
+# elif num == 4:
+#     print("thrusday")    
+# elif num == 5:
+#     print("friday")    
+# elif num == 6:
+#     print("saturday")    
+# elif num == 7:
+#     print("sunday")    
+# else :
+#     print("invalid num")    
+
+# for i in range (50,17,-1):
+#     if (i%3 ==0):
+#         print("divide by 3")
+#         elif(i%5 == 0):
+#             print("divide  by 5")
+#     else:
+#         print("wrong")        
+# total = 0
+# for i in range(1,9):
+#     total = i + total
+#     print("coin", total,i)
+# total = 0
+# for i in range (1,50,3):
+#     # if(i%2 == 0):
+#         print("coin",i)
+#         total = total + 1
+#         print("total:",total,i)
+
+
+# total = 0
+# count = 0
+# for i in range(10,49):
+#     if (i%4 ==0):
+#         count = count + 1
+#         total = total + 1
+# print(total , count)        
+
+for i in range (150,7):
+    if (i%)
