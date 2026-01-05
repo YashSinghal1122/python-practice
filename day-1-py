@@ -1,0 +1,260 @@
+# Numbers print
+# for i in range(1,11):
+#     print(i)
+ 
+# same line bar bar print krne ke liye 
+# for i in range(5):
+#     print("hello")
+
+# aagr hame table print krni ho toh
+# for i in range(1,11):
+#     print("2 *", i ,"=",2*i)
+
+# 10 se 1 tak numbers print karo (reverse order).
+# for i in range(10,0,-1):
+#     print(i)
+
+# Sirf even numbers print karo:
+# for i in range(1,10):
+#     if(i%2==0):
+#         print(i)
+
+# second method...................
+# for i in range(2,11,2):
+#     print(i)
+
+# Sirf odd numbers print karo:
+# for i in range(1,11):
+#     if(i%2 != 0):
+#         print(i)
+
+# print krna hai 5,10,15,20,25......
+# for i in range(5,30,5):
+#     print(i)
+
+# Ek for loop likho jo:
+# 3 se start ho
+# 15 tak jaye
+# har baar 3 se increase ho
+# for i in range(3,16,3):
+#     print(i)
+
+# for i in range(1, 4):
+#     for j in range(1, 4):
+#         print(i,j)
+
+# Ek number input lo aur batao number positive hai ya negative
+# n = int(input("Enter the number : "))
+# if (n > 0):
+#     print("num is positive ")
+# elif(n < 0):
+#     print("num is negetive ")
+# else:
+#     print("num is 0 ")
+
+# Ek number input lo aur check karo even hai ya odd.
+# num = int(input("Enter the number : "))
+# if(num % 2 == 0):
+#     print("num is even")
+# else:
+#     print("num is odd")    
+
+# User se age lo aur check karo vote dene ke liye eligible hai ya nahi.
+# age = int(input("Enter the age : "))
+# if(age >= 18):
+#     print("eligible")
+# else:
+#     print("not eligible")    
+
+# User se 2 numbers lo aur bada number print karo.
+# num1 = int(input("Enter the first number: "))
+# num2 = int(input("Enter the second number : "))
+
+# if(num1 > num2):
+#     print("num1 is big",num1)
+# else:
+#     print("num2 is big",num2)    
+
+# User se ek character lo aur check karo
+# 👉 vowel hai ya consonant (a e i o u).
+
+# char = input("Enter the char :")
+# if char in "aeiou":
+#     print("vowel")
+# else:
+#     print("sonsonant")  
+# This is easy method................      
+
+# ch = input("Enter the value : ")
+# if ch == "a" or  ch == "e" or  ch == "i" or ch == "o" or ch == "u":
+#     print("vowel")
+# else:
+#     print("consonant")    
+
+# User se marks lo aur grade print karo:
+# Marks	Grade
+# ≥90	A
+# ≥60	B
+# ≥40	C
+# <40	Fail
+
+# marks = int(input("Enter the marks : "))
+# if(marks >= 90):
+#     print("Grade A 👌")
+# elif(marks >= 60):
+#     print("Grade B 😉")
+# elif(marks >= 40 ):
+#     print("Grade c 🤔")
+# else:
+#     print("Fail 🤢")    
+
+# User se age aur id_card (True/False) lo
+# 👉 Dono sahi ho to Entry allowed
+# 👉 Warna Entry denied
+
+# age = int(input("Enter the age : "))
+# id_card = input("do you have id card : (yes/no): ")
+
+# if age >= 18 and id_card =="yes":
+#     print("entry allowed ")
+# else:
+#     print("not allowed")   
+
+    # User se 3 numbers lo aur sabse bada number print karo
+    # (Nested if ka use) 
+
+# num1 = int(input("Enter the first number : "))
+# num2 = int(input("Enter the sec number : "))
+# num3 = int(input("Enter the third number : "))
+
+# if(num1 >=  num2 and num1 >= num3):
+#     print("num1 is big ", num1)
+# elif(num2 >= num1 and num2 >= num3):
+#     print("num2 is big ", num2)
+# else:
+#     print("num3 is big",num3)  
+ 
+# this is a second method..................... 
+
+# if(num1 >= num2):
+#     if(num1 >= num3):
+#         print("num1 is big")
+# elif(num2 >= num3):
+#     if(num2 >= num1):
+#         print("num 2 is big")
+# else:
+#     print("num 3 is big")
+
+# User se ek number lo aur check karo:
+# Positive & Even
+# Positive & Odd
+# Negative
+# Zero
+
+# num = int(input("Enter the num : "))
+# if(num == 0):
+#     print("zero")
+# elif(num > 0):
+#     if( num % 2 == 0):
+#         print("positive & even")
+#     else:
+#         print("positive & odd")    
+# else:
+#     print("num is negetive")        
+
+# name = "Rahul"
+# age = 20
+
+# print(f"My name is {name} and age is {age}")
+
+# name = "Rahul"
+# age = 20
+# print("My name is", name, "and age is", age)
+
+# for i in range(1, 11):
+#     if i > 5:
+#         print(i)
+
+# name = "RAM"
+
+# for ch in name:
+#     print( 2 * ch)
+
+# 1 se 10 tak ke numbers print karo.
+# for i in range(1,11):
+#     print(i)
+
+# 1 se 20 tak ke sirf even numbers print karo.
+# for i in range(1,21):
+#     if(i % 2 ==0):
+#         print(i)
+
+# 10 se 1 tak numbers reverse order me print karo.
+# # for i in range(10,0,-1):
+# #     print(i)
+
+# Ek number n lo aur n tak ke numbers print karo.
+# n = int(input("Enter the number : "))
+
+# for i in range(1,n+1):
+#     print(i)
+
+# 1 se 50 tak ke numbers me se sirf 5 ke multiples print karo.
+# for i in range(1,51):
+#     if(i%5 ==0):
+#         print(i)
+
+# 1 se 30 tak ke numbers me se sirf odd numbers print karo.
+
+# for i in range(1,31):
+#     if(i%2 != 0):
+#         print(i)
+
+# # 1 se 20 tak ke numbers me se 10 se bade aur even numbers print karo.
+# for i in range(1,20):
+#     if i>10:
+#         if(i % 2 == 0):
+#             print(i)
+
+# Ek string lo aur har character ko alag-alag print karo.
+# letter = "yash"
+# for i in letter:
+#     print(i)
+
+# Ek string lo aur uski length (characters count) nikalo
+# (len() use mat karna).
+
+# letter = "badmosh"
+# count = 0
+# for i in letter:
+#     count = count+ 1
+# print(count)
+
+# Ek string lo aur sirf vowels print karo.
+# sh = "yash singhal"
+# for i in sh:
+#     if i in "aeiou":
+#         print(i)
+
+# Ek string lo aur kitne vowels hain count karo.
+# tillu = "yash singhal"
+# count = 0
+# for i in tillu:
+#     if i in "aeiou":
+#         count = count + 1
+# print(count)        
+
+# Ek string lo aur reverse print karo (sirf for loop se).
+# sh = "yash"
+# rev = ""
+
+# for ch in sh:
+#     rev = ch + rev
+# print(rev)   
+ 
+# slicing formate
+
+# s = "yash"
+# ch = s[1:3]
+# print(ch)
+
