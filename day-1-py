@@ -258,3 +258,510 @@
 # ch = s[1:3]
 # print(ch)
 
+# 1. Write a program to print all natural numbers from 1 to n. – using for
+# loop
+
+# n = int(input("Enter the number : "))
+# for i in range(1,n+1):
+#     print(i)
+
+# Write a program to print all natural numbers in reverse (from n to 1). –
+# using for loop
+
+# n  = int(input("Enter the number : "))
+# for i in range(n,0,-1):
+#     print(i)
+
+# 3. Write a program to print all alphabets from a to z. – using for loop
+
+# alpha = "abcdefghijklmnopqrstuvwxyz"
+# for i in alpha:
+#     print(i)
+
+# 4. Write a program to print all even numbers between 1 to 100. – using
+# for loop
+
+# for i in range(1,101):
+#     if(i%2 == 0):
+#         print(i)
+
+# 5. Write a program to find the sum of all odd numbers between 1 to n.
+
+# num = int(input("Enter the value : "))
+# sum = 0
+# for i in range(1,num+1):
+#     if(i%2 != 0):
+#         print(i)
+
+# 50 se 18 tk loop chlao nd 3 se div. ho toh div by 3 nd 5 se ilv ho toh div by  5
+
+# for i in range(50,17,-1):
+#     if(i%3 == 0):
+#         print("div by : 3 = ",i)
+#     elif(i%5 == 0):
+#         print("div by : 5 = ",i)
+
+# 5 ki tablle print kro 
+# this is a first method 
+# for i in range(5,50,5):
+#     print(i)
+
+# 2nd methodd........
+# n = 5
+# for i in range(1,11):
+#     print(n,"*",i ,"=",n*i)
+
+# 1 to 8 get the sum of all thr number
+
+# total = 0
+# for i in range(1,9):
+#     print("coin =" ,i)
+#     total = total + i
+#     print("total ::", total,i)
+
+# qus is ki hamne har 3rd day kitni bar paise diye
+# total = 0
+# for i in range(1,50,):
+#     if(i%3 == 0):
+#         total= total + 1
+# print("total coin",total)
+       
+# count = 0
+# total = 0
+# for i in range(10,49):
+#     if(i%4==0):
+#         count = count + 1
+#         total = total + i
+# print(count,total)        
+
+# num = 9
+
+# count = 0
+
+# for i in range(1, num + 1):
+#     if num % i == 0:
+#         count = count + 1
+
+# if count == 2:
+#     print("Prime number")
+# else:
+#     print("Not a prime number")
+
+# 10 se 79 tk loop chlao and the num which are div. 3 and 5 is qus ko while loop mai kro
+# i = 10
+# count = 0
+# while i <= 80:
+#     if i % 3 == 0 and i % 5 == 0:
+#         count = count + 1
+#     i = i + 1
+# print("Total count =", count)
+
+
+# num = 540
+# sum = 0
+
+# while num >= 502:
+#     if num % 2 != 0:
+#         sum = sum + num
+#     num = num - 1
+
+# # print("Sum of odd numbers =", sum)
+# 10 ese num print kro jo 3,5,13,23 sai div. ho jaye ise while loop se kro
+# num = 1
+# count = 0
+
+# while count < 10:
+#     if num % 3 == 0 and num % 5 == 0 and num % 13 == 0 and num % 23 == 0:
+#         print(num)
+#         count = count + 1
+#     num = num + 1
+
+# 1 num lenahai and chheck krrna hai prime hai ya nhi
+# num = int(input("Enter a number: "))
+
+# i = 1
+# count = 0
+
+# while i <= num:
+#     if num % i == 0:
+#         count = count + 1
+#     i = i + 1
+
+# if count == 2:
+#     print("Prime number")
+# else:
+#     print("Not a prime number")
+
+# find 15 num starting from 600 which are div. by 4,9,10
+# num = 600
+# count = 0
+# while(count <= 15):
+#     if(num%4 == 0 and num%9 ==0 and num%10 == 0):
+#         print(num)
+#         count= count + 1
+#     num = num + 1    
+
+
+# data = "madam"
+# x = 0
+# y = len(data)-1
+# while(x <len(data)):
+#     print(x,data[x],y,data[y])
+#     x= x + 1
+
+# 1. Write a program to print all natural numbers from 1 to n. – using while
+# loop
+
+# n = int(input("Enter the value : "))
+
+# i = 1
+# while(i<n+1):
+#     print(i)
+#     i = i +  1
+
+# 2. Write a program to print all natural numbers in reverse (from n to 1). –
+# # using while loop
+
+# n = int(input("Enter the value : "))
+
+# while(n>=1):
+#     print(n)
+#     n = n -1
+
+# 3. Write a program to print all alphabets from a to z. – using while loop
+
+# i = 97
+# while(i<=122):
+#     print(chr(i))
+#     i = i + 1
+
+# 4. Write a program to print all even numbers between 1 to 100. – using
+# while loop
+
+# i = 1
+# while(i<=100):
+#     if(i%2 == 0):
+#         print(i)
+#     i = i + 1
+
+# 5. Write a program to find the sum of all odd numbers between 1 to n.
+
+# n = int(input("Enter the value : "))
+# i = 1
+# sum = 0
+# while(i<=n):
+#     if(i%2 != 0):
+#         sum = sum + i
+#         print("odd num : ", i)
+#     i = i + 1    
+# print("sum : ",sum)    
+
+# 6. Write a program to count the number of digits in a number.
+# n = int(input("Enter the number : "))
+# count = 0
+# while(n>0):
+#     count = count + 1
+#     n = n // 10
+# print("num of digit = ", count)    
+
+# 7. Write a program to calculate the sum of digits of a number.
+# n = int(input("Enter the number : "))
+# sum = 0
+# while(n != 0):
+#     sum = sum + (n%10)
+#     n = n // 10
+# print("sum",sum)    
+
+# # 8. Write a program to find the first and last digit of a number.
+# n = int(input("Enter a number: "))
+
+# last_digit = n % 10
+
+# while n >= 10:
+#     n = n // 10
+
+# first_digit = n
+
+# print("First digit =", first_digit)
+# print("Last digit =", last_digit)
+
+# 9. Write a program to find the sum of first and last digit of a number.
+# n = int(input("Enter the number : "))
+# last_digit = n%10
+# while n >=10:
+#     n = n //10
+
+# first_digit = n
+# print("sum = ",first_digit + last_digit)
+
+# 10.Write a program to enter a number and print its reverse.
+# n = int(input("Enter the num : "))
+# reverse = 0
+# while(n>0):
+#     reverse = reverse * 10 + (n % 10)
+#     n = n // 10
+# print("rev. num = ",reverse)    
+
+# 11.Write a program to find the power of a number using for loop.
+# base = int(input("Enter the num : "))
+# power = int(input("Enter the power : "))
+
+# result = 1
+# for i in range(power):
+#     result = result * base
+# print("result = ", result)    
+
+# # 3 ki table print kro 
+# n = int(input("Enter the number"))
+# i = 1
+# while(i<=10):
+#     print(n*i)
+#     i = i + 1
+
+# n = [1,4,9,16,25,36,49,64,81,100]
+# i = 0
+# while(i < len(n)):
+#     print(n[i])
+#     i = i + 1
+# data = "sarras"
+# x = 0
+# y = len(data)-1
+
+# while(x <= len(data)//2):
+#     if(data[x] == data[y]):
+#         print("palandrome")
+#     else:
+#         print("not palandrome")    
+#     x = x + 1
+#     y = y - 1    
+# # print(data[x], data[y])
+
+# for x in range(1,5):
+#     print("student :::" ,x)
+
+#     for k in range(1,5-x+1):
+#         print("test",k,"----student",x)
+#     print("")    
+# a = 3
+# for i in range(1,4):
+#     for j in range(1,5):
+#         print(i,end ="")
+#         a = a+1
+
+# n = (1,4,9,16,25,36,49,64,81,100)
+# x = 49
+# for  i in n:
+#     if(i == x):
+#         print("idx ",)
+
+# for i in range(3,6):
+#     for j in range(4):
+#         print(i,end="")
+#     print()    
+
+# for i in range(1,8):
+#         for j in range(4):
+#             if(j%2 != 0):
+#                 print(j,end="")
+#             print()        
+
+# for i in range(1, 6):
+#     print("*" * i)
+
+# for i in range(5,0,-1):
+#     for space in range(5 -i):
+#         print(" ", end= " ")
+#     for star in range(i):
+#         print("*",end=" ")
+#     print()    
+
+# yash = [1,2,3,4,5,6,7,8,9,10]
+
+# first = 0
+# last = len(yash)-1
+
+# while first < last:
+# x = int(input("enter the num : "))
+# if(x%5==0 and x > 15 ):
+#     print("hey user")
+# else:
+#     print("condition false")    
+
+# for i in range(100,104):
+#     if(i%13==0):
+#         print("abc")
+#         break
+     
+# print("regex software")    
+
+# num = int(input("Number daalo: "))
+
+# if num <= 1:
+#     print("Prime number nahi hai")
+# for i in range(2, num):
+#     if num % i == 0:
+#         print("Prime number nahi hai")
+#         break
+#     else:
+#         print("Prime number hai")
+
+# for i in range(10,80):
+#     if(i%3==0 and i%5 == 0):
+#         print("div by 3 and 5 ",i)
+
+# i = 10
+# while(i<80):
+#     if(i%3 == 0 and i%5 == 0):
+#         print("div by 3 and 5 ",i)
+#     i = i + 1
+ 
+# i = 540
+# sum =0
+# count = 0
+# while(i>=502):
+#     if(i*2 != 0):
+#         count = count + 1
+#         sum = sum + i
+
+       
+#     i = i-1
+# print(sum,count)    
+# i = 1
+# count = 0
+# while(count<10):
+#     if(i%3==0 and i%5==0 and i%13==0 and i%17==0 and i%23==0):
+#         count = count + 1
+#         print(i,"count :: ",count)
+#     i = i + 1    
+
+
+# i = 600
+# count = 0
+# while(count<15):
+#     if(i%4==0 and i%9==0 and i%10 == 0):
+#         count = count + 1
+#         print(i,count)
+#     i = i + 1    
+
+# num =260
+# num // 10
+# print(num)
+
+# data = "tushar"
+# x = 0
+# while(x < len(data)):
+#     print(x,data[0:4])
+#     x = x + 1
+
+# data = "saras"
+# x = 0
+# y = len(data)-1
+# while(x < len(data)):
+#     if(data[x] == data[y]):
+#         print("palandrome",data[x],data[y])
+#     else:
+#         print("not ppalandrome" ,data[x],data[y])    
+#     x = x +  1    
+#     y = y - 1
+
+
+# data = "abcad"
+# x = 0
+# y = len(data)-1
+
+# while(x < len(data)):
+#     if(data[x] == data[y]):
+#         print(data[x], data[y])
+#     x = x + 1
+#     y = y - 1
+        
+
+# data = "yasha"        
+# start = 0
+# end = len(data)-1
+
+# while(end != 0):
+#     print(start, end)
+#     start = start + 1
+
+#     if(start == end):
+#         start = 0
+#         end = end -1
+  
+# data = "saransh"  
+# start = 0
+# end = len(data)-1
+
+# while(start < len(data)-1):
+#     print(start ,end)
+#     end = end - 1
+
+#     if(start == end):
+#         end = len(data)-1
+#         start = start + 1
+# s = "shabshash"
+# printed = ""
+
+# for ch in s:
+#     if s.count(ch) > 2 and ch not in printed:
+#         print(ch)
+#         printed += ch
+
+
+# for x in range(1,5):
+    
+#     for y in range(1,5):
+#         print("*",end=" ")
+
+#     print("")
+
+# for x in range(1,5):
+#     for y in range(1,5):
+#         print(x,end="")
+#     print("")    
+
+# for x in range(1,5):
+#     for y in range(1,5):
+#         print(y,end="")
+#     print("") 
+#
+
+
+
+# for x in range(3,6):
+#     for y in range(1,5):
+#         print(x,end="")
+#     print("") 
+
+# for x in range(8,5,-1):
+#     for y in range(1,5):
+#         print(x,end="")
+#     print("")    
+
+# for x in range(1,4):
+#     for y in range(8,4,-1):
+#         print(y,end="")
+#     print("")    
+
+# num = 1
+# for x in range(3):
+#     for y in range(3):
+#         print(num,end="")
+#         num = num + 1
+#     print("")    
+
+
+# for x in range(4):
+#     for y in range(4):
+#         print(x + y+ 1,end="")
+#     print("")    
+
+# for x in range(3):
+#     for y in range(3):
+#         print(chr(65 + x),end="")
+#     print("")    
+
+# for x in range(3):
+#     for y in range(0,4):
+#         print(chr(65 + y),end="")
+#     print("")    
